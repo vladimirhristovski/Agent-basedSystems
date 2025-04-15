@@ -51,7 +51,7 @@ if __name__ == '__main__':
             total_steps = steps if total_steps is Ellipsis else steps + total_steps
             total_reward = reward_current if total_reward is Ellipsis else reward_current + total_reward
         print(
-            f'Iterations {iterations}: avg steps: {total_steps / iterations}, avg reward: {total_reward / iterations}')
+            f'Iterations: {iterations} average steps: {total_steps / iterations}, average reward: {total_reward / iterations}')
 
 # as a result i got the following output:
 #
